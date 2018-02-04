@@ -5,8 +5,8 @@
 
 /system         ext4      /dev/block/bootdevice/by-name/system               flags=display="System"
 /system_image   emmc      /dev/block/bootdevice/by-name/system               flags=backup=1;flashimg=1
-/data           ext4      /dev/block/bootdevice/by-name/userdata             flags=encryptable=footer;length=-16384
-/dev/block/bootdevice/by-name/userdata /data f2fs nosuid,nodev,noatime,inline_xattr,data_flush wait,check,encryptable=footer,formattable,length=-16384
+/data           ext4      /dev/block/bootdevice/by-name/userdata             flags=encryptable=footer
+/dev/block/bootdevice/by-name/userdata /data f2fs nosuid,nodev,noatime,inline_xattr,data_flush wait,check,encryptable=footer,formattable
 /boot           emmc      /dev/block/bootdevice/by-name/boot                 flags=display="Boot"
 /cache          ext4      /dev/block/bootdevice/by-name/cache                flags=display="Cache"
 /vendor         ext4      /dev/block/bootdevice/by-name/cust                 flags=display="Vendor";backup=1;wipeingui
