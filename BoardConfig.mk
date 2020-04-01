@@ -104,3 +104,6 @@ TARGET_COPY_OUT_VENDOR := vendor
 endif
 # DJ9
 
+TARGET_USES_LOGD := true
+TWRP_INCLUDE_LOGCAT := true
+
