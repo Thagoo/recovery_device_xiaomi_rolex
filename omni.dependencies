@@ -3,6 +3,13 @@
     "remote":"github",
     "repository": "TeamWin/android_device_qcom_common",
     "target_path": "device/qcom/common",
-    "revision":"android-8.0"
+    "revision":"android-8.1"
+  },
+  {
+    "remote": "github",
+    "repository": "Thagoo/Triton_kernel_xiaomi_msm8917",
+    "target_path": "kernel/xiaomi/msm8917",
+    "revision": "twrp"
   }
 ]
+
