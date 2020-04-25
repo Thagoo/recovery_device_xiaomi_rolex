@@ -31,8 +31,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/recovery/kernel:kernel
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := riva
-PRODUCT_NAME := full_riva
+PRODUCT_DEVICE := rolex
+PRODUCT_NAME := full_rolex
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi 5A
+PRODUCT_MODEL := Redmi 4A
 PRODUCT_MANUFACTURER := Xiaomi

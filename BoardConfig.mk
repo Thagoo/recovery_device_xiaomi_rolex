@@ -15,7 +15,7 @@
 #
 # Copyright (C) 2018 OrangeFox Recovery Project
 
-LOCAL_PATH := device/xiaomi/riva
+LOCAL_PATH := device/xiaomi/rolex
 
 # Architecture
 TARGET_ARCH := arm64

@@ -15,5 +15,5 @@
 #
 # Copyright (C) 2018 OrangeFox Recovery Project
 
-add_lunch_combo omni_riva-userdebug
-add_lunch_combo omni_riva-eng
+add_lunch_combo omni_rolex-userdebug
+add_lunch_combo omni_rolex-eng
