@@ -18,7 +18,7 @@
 /persist_image  emmc      /dev/block/bootdevice/by-name/persist             flags=display="Persist (Image)";backup=0;flashimg=1
 /splash         emmc      /dev/block/bootdevice/by-name/splash               flags=display="Boot Logo";backup=1;flashimg=1
 
-/storage        ext4      /data/media/0                                      flags=display="Internal Storage";usermrf;backup=1;fsflags="bind";removable
+/storage        ext4      /data/media/0                  		     flags=display="Internal Storage";usermrf;backup=1;fsflags="bind";removable
 /sdcard1        auto      /dev/block/mmcblk1p1                               flags=display="MicroSD";storage;wipeingui;removable
 /usb-otg        auto      /dev/block/sda1                                    flags=display="USB Storage";storage;wipeingui;removable
 
@@ -32,11 +32,11 @@
 
 # Modem backup/restore
 /firmware       vfat      /dev/block/bootdevice/by-name/modem                flags=display="Firmware";backup=0;mounttodecrypt;fsflags=ro
-/modem          emmc      /dev/block/bootdevice/by-name/modem                flags=display="Modem (Image)";backup=1;flashimg=1
+/modem 		emmc      /dev/block/bootdevice/by-name/modem                flags=display="Modem (Image)";backup=1;flashimg=1
 /dsp		emmc	  /dev/block/bootdevice/by-name/dsp	             flags=backup=1;subpartitionof=/firmware
-/sec            emmc      /dev/block/bootdevice/by-name/sec                  flags=backup=1;display="Sec"
+/sec       	emmc      /dev/block/bootdevice/by-name/sec                  flags=backup=1;display="Sec"
 #/config	emmc	  /dev/block/bootdevice/by-name/config		     flags=display="OEM";backup=1
-#/sec           emmc      /dev/block/bootdevice/by-name/sec                  flags=display="Sec";backup=1;subpartitionof=/config
+#/sec       	emmc      /dev/block/bootdevice/by-name/sec                  flags=display="Sec";backup=1;subpartitionof=/config
 
 
 # EFS backup/restore
@@ -45,5 +45,5 @@
 /efsg		emmc	  /dev/block/bootdevice/by-name/fsg	             flags=backup=1;subpartitionof=/efs1
 /efsc		emmc	  /dev/block/bootdevice/by-name/fsc	             flags=backup=1;subpartitionof=/efs1
 #
-/cust           ext4      /dev/block/bootdevice/by-name/cust                 flags=display="Cust";backup=0
+/cust          ext4      /dev/block/bootdevice/by-name/cust                 flags=display="Cust";backup=0
 #
