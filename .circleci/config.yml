@@ -1,0 +1,17 @@
+version: 2.1
+jobs:
+  compile:
+    docker:
+      - image: fr3akyphantom/droid-builder:latest 
+    working_directory: /home/thago/pbrp
+    steps:
+      - run: apt-get -y update && apt-get -y upgrade && apt-get -y install wget
+      - run: wget https://raw.githubusercontent.com/Thagoo/triton-script/pbrp/compiler.sh
+      - run: chmod +x compiler.sh
+      - run: bash compiler.sh
+
+workflows:
+  version: 2.1
+  cooking:
+    jobs:
+      - compile
