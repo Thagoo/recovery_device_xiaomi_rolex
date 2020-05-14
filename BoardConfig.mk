@@ -64,7 +64,6 @@ endif
 # Encryption
 TARGET_HW_DISK_ENCRYPTION := true
 TW_INCLUDE_FBE := true
-TARGET_CRYPTFS_HW_PATH := device/qcom/common//cryptfs_hw
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864
