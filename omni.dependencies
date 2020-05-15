@@ -7,9 +7,9 @@
   },
   {
     "remote": "github",
-    "repository": "Thagoo/Triton_kernel_xiaomi_msm8917",
+    "repository": "Thagoo/4.9",
     "target_path": "kernel/xiaomi/msm8917",
-    "revision": "twrp"
+    "revision": "kernel.lnx.4.9.r34-rel"
   }
 ]
 
