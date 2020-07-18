@@ -23,8 +23,8 @@ PRODUCT_PACKAGES += \
     charger_res_images
 
 # Encryption
-PRODUCT_PACKAGES += \
-    libcryptfs_hw
+#PRODUCT_PACKAGES += \
+#    libcryptfs_hw
 
 # Kernel
 #PRODUCT_COPY_FILES += \
