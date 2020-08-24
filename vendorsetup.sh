@@ -17,3 +17,12 @@
 
 add_lunch_combo omni_rolex-userdebug
 add_lunch_combo omni_rolex-eng
+export FOX_VERSION=11.0
+export OF_MAINTAINER=Thago
+export OF_SUPPORT_ALL_BLOCK_OTA_UPDATES=1
+export OF_USE_TWRP_SAR_DETECT=1
+export FOX_R11=1
+export OF_PATCH_AVB20=1
+export FOX_REPLACE_BUSYBOX_PS=1
+export OF_USE_MAGISKBOOT=1
+export OF_SUPPORT_PRE_FLASH_SCRIPT=1
