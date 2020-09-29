@@ -9,7 +9,7 @@
     "remote": "github",
     "repository": "Thagoo/platform_kernel_xiaomi_msm8917",
     "target_path": "kernel/xiaomi/msm8917",
-    "revision": "LA.UM.8.6.2.r1/staging"
+    "revision": "LA.UM.8.6.2.r1/closet"
   }
 ]
 
