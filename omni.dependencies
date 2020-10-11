@@ -9,7 +9,7 @@
     "remote": "github",
     "repository": "Thagoo/platform_kernel_xiaomi_msm8917",
     "target_path": "kernel/xiaomi/msm8917",
-    "revision": "riva-ts"
+    "revision": "tr-4.9"
   }
 ]
 
